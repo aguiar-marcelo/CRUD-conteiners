@@ -1,23 +1,15 @@
-.conteiner_item_update {
-  color: #cfd300;
-  font-size: 18px;
-  margin-left: 2.8%;
-  position: absolute;
-  cursor: pointer;
-}
-
 .edit_title {
   background-color: #2c97de;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
-width: 100%;
+  width: 100%;
 }
 
 .edit_content {
   background-color: #cecece42;
 }
 
-/*formulario*/ 
+/*formulario*/
 
 
 .form_box input[type="text"] {

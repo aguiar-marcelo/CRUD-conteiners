@@ -15,7 +15,8 @@ body,html {
   margin-top: 2vw;
   grid-template-columns: 30% 70%;
   background-color: #41a3ff17;
- align-items: flex-start;
+  align-items: flex-start;
+  color: #fff;
 }
 
 /* 
@@ -24,8 +25,9 @@ Formulario
 
 .form_box {
   width: 100%;
-  background-color: #eeeeee;
+  background-color: #b8d0eb;
   border-radius: 8px;
+  color: #000;
 }
 
 .nav_form {
@@ -152,9 +154,22 @@ Formulario
 
 .conteiners{
   width: 95%;
+  height: 78.5%;
   background-color: #41a3ff2a;
   border-radius: 8px;
   margin-left: 5%;
+  overflow: auto;
+}
+
+/*scroll edit*/
+.conteiners::-webkit-scrollbar {
+  width: 20px;
+}
+
+
+.conteiners::-webkit-scrollbar-thumb {
+  background: #1e6797;
+  border-radius: 10px;
 }
 
 .nav_conteiners{
@@ -163,14 +178,14 @@ Formulario
   font-size: 1.2vw;
   background-color: #2c97de;
   color: #ffffff;
-  border-radius: 8px 8px 0 0;
   overflow: hidden;
   display: grid;
-  grid-template-columns: 0.5fr 1.7fr 0.25fr 0.3fr 0.5fr 0.7fr;
+  border-radius: 8px 8px 0 0;
+  grid-template-columns: 0.55fr 1.7fr 0.25fr 0.3fr 0.5fr 0.6fr;
 }
 
 .nav_conteiners_col{
-  border-right: 1px solid #bdbdbd;
+  border-right: 1px solid #bdbdbd55;
   overflow: hidden;
   text-align: start;
   padding-left: 5px;
@@ -180,44 +195,52 @@ Formulario
 .conteiner_item{
   width: 100%;
   height: 30px;
-  font-size: 1.2vw;
-  font-family: 'M PLUS 1 Code', sans-serif;
-  background-color: #e0e0e0;
+  font-size: 1vw;
+  font-family:  sans-serif;
+  background-color: #b8d0eb;
   color: #000000;
   overflow: hidden;
   display: grid;
-  grid-template-columns: 0.5fr 1.7fr 0.25fr 0.3fr 0.5fr 0.7fr;
+  grid-template-columns: 0.55fr 1.7fr 0.25fr 0.3fr 0.5fr 0.6fr;
 }
 .conteiner_item div{
-  border-right: 1px solid #bdbdbd;
-  border-bottom: 1px solid #bdbdbd;
+  border-right: 1px solid #898989;
+  border-bottom: 1px solid #898989;
   overflow: hidden;
-  text-align: start;
   padding-left: 5px;
-  padding-top: 2px;
+  padding-top: 5px;
   align-items: center;
+}
+
+.conteiner_item_opcoes{
+  display: flex;
+  justify-content:space-around;
 }
 
 
 .conteiner_item_delete{
   color: #bb0000;
   font-size: 18px;
-  margin-left: 0.5%;
-  position: absolute;
   cursor: pointer;
 }
-.conteiner_item_add{
-  color: #3990e0;
-  font-size:22px;
-  margin-left: 6.8%;
-  position: absolute;
+
+.conteiner_item_update {
+  color: #f0dc00;
+  font-size: 18px;
   cursor: pointer;
+  margin: auto;
 }
+
+
 .drop_movi{
   color: #3990e0;
   font-size: 20px;
-  margin-left: 6%;
-  position: absolute;
+  cursor: pointer;
+}
+
+.button-add {
+  color: #003fd3;
+  font-size: 18px;
   cursor: pointer;
 }
 

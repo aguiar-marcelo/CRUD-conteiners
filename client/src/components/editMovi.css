@@ -1,25 +1,17 @@
-.conteiner_item_update {
-    color: #cfd300;
-    font-size: 18px;
-    margin-left: 2.8%;
-    position: absolute;
-    cursor: pointer;
-  }
-  
   .edit_title {
     background-color: #2c97de;
     color: #ffffff;
     font-family: "Open Sans", sans-serif;
-  width: 100%;
+    width: 100%;
   }
-  
+
   .edit_content {
     background-color: #cecece42;
   }
-  
-  /*formulario*/ 
-  
-  
+
+  /*formulario*/
+
+
   .form_box input[type="text"] {
     width: 90%;
     margin-left: 2%;
@@ -32,17 +24,17 @@
     font-size: 1rem;
     outline: none;
   }
-  
+
   .form_box input[type=text]:focus {
     border: 1.8px solid #41a3ff;
   }
-  
+
   .form_box p {
     font-size: 15px;
     color: #103c58;
     margin-bottom: 3%;
   }
-  
+
   /* radio buttons  */
   .radio_box {
     position: relative;
@@ -52,20 +44,20 @@
     user-select: none;
     margin-bottom: 10px;
   }
-  
+
   .radio_grid {
     display: grid;
     grid-template-columns: 50% 50%;
   }
-  
+
   .radio_box input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
-  
+
   }
-  
-  
+
+
   .checkmark {
     position: absolute;
     top: 0;
@@ -76,25 +68,25 @@
     border-radius: 50%;
     transition: 0.25s;
   }
-  
+
   .radio_box input:checked~.checkmark {
     background-color: #2c97de;
     box-shadow: 0px 0px 5px #2c97de;
   }
-  
-  
+
+
   .checkmark:after {
     content: "";
     position: absolute;
     display: none;
   }
-  
-  
+
+
   .radio_box input:checked~.checkmark:after {
     display: block;
   }
-  
-  
+
+
   .radio_box .checkmark:after {
     top: 5px;
     left: 5px;
@@ -103,7 +95,7 @@
     border-radius: 50%;
     background: white;
   }
-  
+
   .botao_submit {
     background-color: #2c97de;
     border: 0;
@@ -117,7 +109,7 @@
     margin-top: 5%;
     transition: 0.2s;
   }
-  
+
   /* submit*/
   .botao_submit:hover {
     background-color: #48adf0;

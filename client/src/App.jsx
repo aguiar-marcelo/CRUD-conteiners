@@ -94,7 +94,7 @@ function App() {
               maxLength={11}
               required
               onChange={(event) => {
-                setNome(event.target.value);
+                setNome(event.target.value.toUpperCase());
               }}
             />
 
@@ -209,7 +209,7 @@ function App() {
                   <div>{val.tipo}</div>
                   <div>{val.status}</div>
                   <div>{val.categoria}</div>
-                  <div>
+                  <div className="conteiner_item_opcoes">
 
                     <a onClick={() => { deleteConteiner(val.id) }}>
                       <i class="fa fa-trash-o conteiner_item_delete" title="Deletar"></i>

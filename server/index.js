@@ -9,7 +9,7 @@ app.use(express.json())
 // CONEXÃO COM BANCO
 const db = mysql.createConnection({
     user: 'root',
-    host: 'localhost',
+    host: "localhost",
     password: 'password',
     database: 'db_conteiner'
 })
